@@ -1,0 +1,34 @@
+{
+  "name": "webadmin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "24.0.5",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@shared/component1": "1.0.0",
+    "react": "^16.8.2",
+    "react-scripts": "^4.0.1",
+    "react-dom": "^16.8.2",
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "start": "cross-env CHOKIDAR_USEPOLLING=true SKIP_PREFLIGHT_CHECK=true react-scripts start",
+    "build": "cross-env SKIP_PREFLIGHT_CHECK=true react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
